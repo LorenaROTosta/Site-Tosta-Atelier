@@ -1,0 +1,65 @@
+.titulo_depoimento {
+  align-items: center;
+  font-size: 85px;
+  margin-left: 80px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.mensagem {
+  width: 700px;
+  height: auto;
+  margin-bottom: 150px;
+}
+
+.depoim_debora {
+  align-items: center;
+  margin-left: 250px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.depoim_giovana {
+  background: #2e2e2e;
+  display: flex;
+  gap: 50px;
+}
+
+.depoim_giovana img {
+  align-items: center;
+  margin-left: 200px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.depoim_giovana p {
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 200px;
+  margin-top: 400px;
+  margin-bottom: 100px;
+  text-decoration: none;
+  font-size: 40px;
+  color: #b2b2b2;
+}
+
+.depoim_giovana h3 {
+  align-items: center;
+  margin-left: 50px;
+  margin-bottom: 100px;
+  font-size: 20px;
+  color: #b2b2b2;
+}
+
+/* Para telas menores que 700px*/
+@media (max-width: 700px) {
+  .mensagem {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 700px) {
+  .depoim_debora img {
+    flex-direction: column;
+  }
+}

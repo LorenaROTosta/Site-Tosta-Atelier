@@ -1,0 +1,38 @@
+.titulo_galeria {
+  align-items: center;
+  font-size: 85px;
+  margin-left: 80px;
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+.desenho {
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 110px; /* Espaço entre as imagens */
+}
+
+.desenho img {
+  width: 500px;
+  height: auto;
+}
+
+.galeria {
+  padding: 50px;
+  text-align: center; /* Centraliza o conteúdo */
+}
+
+.desenho_tipo {
+  display: flex;
+  gap: 500px;
+  justify-content: center;
+  margin-top: 20px;
+}
+/* Para telas menores que 700px*/
+@media (max-width: 700px) {
+  .desenho img {
+    flex-direction: column;
+  }
+}

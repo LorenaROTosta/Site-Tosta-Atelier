@@ -1,0 +1,118 @@
+.encomenda_bg {
+  padding-top: 50px;
+  background: #2e2e2e;
+}
+
+.etapas_frete {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  padding: 100px;
+}
+
+.titulo_encomenda {
+  background-color: #2e2e2e;
+  align-items: center;
+  font-size: 70px;
+  margin-left: 200px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.frete {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  background: #000;
+  padding: 200px;
+  padding-top: 400px;
+  padding-bottom: 400px;
+}
+
+.dados_bg {
+  background: #fff;
+  font-size: 20px;
+  padding: 50px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  padding: 50px;
+}
+
+label {
+  display: block;
+  padding: 10px;
+}
+
+input {
+  font-size: 1.2rem;
+  padding: 10px;
+  border: 2px black;
+  border-radius: 4px;
+  background: #ededed;
+}
+.checkbox,
+.radio {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.checkbox label,
+.radio label {
+  margin: 0px;
+  display: inline-block;
+}
+.checkbox input,
+.radio input {
+  margin: 0px;
+  width: 20px;
+  height: 20px;
+}
+
+iframe {
+  padding: 20px;
+}
+
+.mapa {
+  text-align: center;
+  padding: 3em 30px;
+}
+
+.mapa img {
+  max-width: 100px;
+}
+
+.titulo_perguntas {
+  align-items: center;
+  font-size: 70px;
+  margin-left: 200px;
+  text-decoration: none;
+  color: #2e2e2e;
+  padding-bottom: 50px;
+}
+
+.perguntas_bg {
+  background: #2e2e2e;
+  display: flex;
+  gap: 300px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #b2b2b2;
+  padding-right: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.perguntas_bg img {
+  padding-top: 8px;
+  width: 550px;
+  opacity: 0.8; /*opacidade na imagem*/
+  padding-left: 200px;
+}

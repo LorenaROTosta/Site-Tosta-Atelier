@@ -1,0 +1,64 @@
+body {
+  margin: 0px;
+  color: #111111;
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+img[src$=".jpg"] {
+  border-radius: 0;
+}
+
+button {
+  font-size: 1rem;
+  border-radius: 10px;
+  padding: 15px;
+  background: #ededed;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #b2b2b2; /* Cor ao passar o mouse */
+  transform: scale(1.1); /* Aumenta o botão levemente */
+}
+
+@media (max-width: 600px) {
+  div {
+    grid-template-columns: repeat(autofit, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .sobre {
+    font-size: 30px;
+  }
+}
+
+/* Para telas menores que 1024px (tablet e smartphones em paisagem) */
+@media (max-width: 1024px) {
+  .nav-menu ul {
+    flex-direction: column; /* Torna o menu vertical */
+    gap: 20px;
+    margin: 20px;
+  }
+  .titulo_sobre {
+    font-size: 50px; /* Diminui o tamanho do título */
+  }
+
+  .sobre {
+    font-size: 18px; /* Ajusta o texto descritivo */
+  }
+
+  .grid {
+    grid-template-columns: 1fr; /* Layout em uma única coluna */
+    gap: 10px;
+  }
+
+  .foto_eu {
+    max-width: 100%; /* Garante que a imagem não ultrapasse os limites */
+  }
+}
